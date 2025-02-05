@@ -8,7 +8,6 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Counter />} />
-        <h1>Hello world</h1>
       </Routes>
     </BrowserRouter>
   )
