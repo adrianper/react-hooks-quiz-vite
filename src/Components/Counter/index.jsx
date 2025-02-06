@@ -3,8 +3,7 @@
         y disminuye uno cuando se clickea el boton -, el boton "reset" es para regresar el valor a 0
 
     *Realiza las funciones necesarias para hacer funcionar el componente como se describe
-    *Crea un componente igual que el que se describe haciendo uso de Redux
-    *Crea un componente igual que el que se describe haciendo uso de useReducer
+    *Crea un componente igual que el que se describe haciendo uso del hook useContext
     *Utiliza diferentes rutas para los tres componentes
 */
 
