@@ -1,5 +1,6 @@
 /**
  * The table must show all courier deliveries and their status.
+ * When the user clicks ✅ the status of the package must change to "delivered".
  */
 
 import { couriers } from "./data"
@@ -22,7 +23,7 @@ const Deliveries = () => {
                     <p className="table__cell">{deliveries[0].name}</p>
                     <p className="table__cell">{deliveries[0].packages[0]?.id || "-"}</p>
                     <p className="table__cell">{deliveries[0].packages[0]?.status || "-"}</p>
-                    <span>&#x2705;</span>
+                    <span>✅</span>
                 </div>
             </div>
         </div>

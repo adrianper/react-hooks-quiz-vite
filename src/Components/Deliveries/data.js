@@ -1,3 +1,4 @@
+// package: { id: string, status: "unassigned" | "assigned" | "delivered" }
 export const packages = [
     { id: "a1b2c3", status: "unassigned" },
     { id: "d4e5f6", status: "unassigned" },
@@ -13,6 +14,7 @@ export const packages = [
     { id: "h4i5j6", status: "unassigned" }
 ]
 
+// couriers: { name: string, capacity: number, packages: Package[] }
 export const couriers = [
     { name: 'David', capacity: 2, packages: [] },
     { name: 'John', capacity: 3, packages: [] },

@@ -2,6 +2,7 @@
  * When the user clicks on the button "Set deliveries" the packages must be assigned to the couriers.
  * The packages must be assigned to the couriers based on their capacity prioritizing couriers with higher capacity.
  * All couriers must have at least one package assigned.
+ * When package is assigned to a courier, the status of the package must change to "assigned".
  */
 
 import Couriers from "./Couriers"
