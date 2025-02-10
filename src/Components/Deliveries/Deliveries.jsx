@@ -1,3 +1,7 @@
+/**
+ * The table must show all courier deliveries and their status.
+ */
+
 import { couriers } from "./data"
 import "./styles.css"
 

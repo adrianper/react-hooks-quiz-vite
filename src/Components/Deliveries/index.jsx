@@ -1,3 +1,9 @@
+/**
+ * When the user clicks on the button "Set deliveries" the packages must be assigned to the couriers.
+ * The packages must be assigned to the couriers based on their capacity prioritizing couriers with higher capacity.
+ * All couriers must have at least one package assigned.
+ */
+
 import Couriers from "./Couriers"
 import Packages from "./Packages"
 import DeliveriesTable from "./Deliveries"

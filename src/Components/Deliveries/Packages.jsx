@@ -1,3 +1,7 @@
+/**
+ * The table must show all packages and their status.
+ */
+
 import { packages } from "./data"
 import "./styles.css"
 

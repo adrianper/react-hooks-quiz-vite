@@ -1,3 +1,7 @@
+/**
+ * The table must show all couriers and their capacity.
+ */
+
 import { couriers } from "./data"
 import "./styles.css"
 
